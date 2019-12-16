@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: 'The Knights of S\'esh',
+    description: 'Six idiots playing D&D',
     siteUrl: 'http://localhost:9000',
   },
   plugins: [
@@ -29,7 +28,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 console.log(edge.node.file);
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
+                  description: edge.node.description,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
