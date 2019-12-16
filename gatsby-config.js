@@ -32,6 +32,7 @@ module.exports = {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  enclosure: { url: edge.node.file, type: 'audio/mpeg' },
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
