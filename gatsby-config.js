@@ -26,7 +26,6 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
-                console.log(edge.node.file);
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.description,
                   date: edge.node.frontmatter.date,
@@ -58,7 +57,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Your Site's RSS Feed",
+            title: "The Knights of S'esh",
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;
