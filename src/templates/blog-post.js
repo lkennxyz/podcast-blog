@@ -13,6 +13,7 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  file,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -26,6 +27,9 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
+            <audio controls>
+              <source src={`${file}`} type="audio/mp3"/>
+            </audio>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -97,6 +101,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        file
       }
     }
   }

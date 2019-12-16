@@ -7,7 +7,6 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
     return (
       <div className="columns is-multiline">
         {posts &&
@@ -33,7 +32,11 @@ class BlogRoll extends React.Component {
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description}
+                  <br />
+                  <audio controls>
+                    <source src={`${post.frontmatter.file}`} type="audio/mp3"/>
+                  </audio>
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
@@ -66,16 +69,18 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
               id
+              html
               fields {
                 slug
               }
               frontmatter {
                 title
+                description
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                file
               }
             }
           }
