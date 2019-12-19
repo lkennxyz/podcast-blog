@@ -22,6 +22,22 @@ module.exports = {
             }
           }
         `,
+        setup: () => ({
+          custom_namespaces: {
+            itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+          },
+          custom_elements: [
+            { 'itunes:author': 'The Knights of S\'esh' },
+            { 'itunes:summary': 'Six idiots playing D&D' },
+            { 'itunes:owner': [
+              { 'itunes:name': 'The Knights of S\'esh' },
+              { 'itunes:email': 'liam@lkenn.xyz' },
+            ]},
+            { 'itunes:explicit': 'No' },
+            { 'itunes:categoryText': 'Comedy' },
+
+          ],
+        }),
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
