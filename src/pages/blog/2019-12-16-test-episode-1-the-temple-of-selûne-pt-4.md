@@ -7,9 +7,9 @@ description: >-
 
   The gang continue their journey through the temple, and things get wet and
   wild.
-featuredpost: true
-featuredimage: /img/home-jumbotron.jpg
-file: https://keran-podcast.s3.eu-west-2.amazonaws.com/D%26D-101219.mp3
+featuredpost: false
+file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/D%26D-101219.mp3'
 tags:
   - test
 ---
+<br>
