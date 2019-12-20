@@ -27,10 +27,10 @@ module.exports = {
             itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
           },
           custom_elements: [
-            { 'itunes:author': 'The Knights of S\'esh' },
-            { 'itunes:summary': 'Six idiots playing D&D' },
+            { 'itunes:author': site.siteMetadata.title },
+            { 'itunes:summary': site.siteMetadata.description },
             { 'itunes:owner': [
-              { 'itunes:name': 'The Knights of S\'esh' },
+              { 'itunes:name': site.siteMetadata.title },
               { 'itunes:email': 'liam@lkenn.xyz' },
             ]},
             { 'itunes:explicit': 'No' },
@@ -38,6 +38,8 @@ module.exports = {
 
           ],
         }),
+        title: site.siteMetadata.title,
+        description: site.siteMetadata.description,
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
@@ -73,7 +75,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "The Knights of S'esh",
+            title: site.siteMetadata.title,
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;
