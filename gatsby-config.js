@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'The Knights of S\'esh',
     description: 'Six idiots playing D&D',
-    siteUrl: 'http://localhost:9000',
+    siteUrl: 'https://knightsofsesh.kenn.dev',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -22,7 +22,9 @@ module.exports = {
             }
           }
         `,
-        setup: () => ({
+        setup: ({ query: { site }}) => ({
+          title: site.siteMetadata.title,
+          description: site.siteMetadata.description,
           custom_namespaces: {
             itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
           },
@@ -38,8 +40,6 @@ module.exports = {
 
           ],
         }),
-        title: site.siteMetadata.title,
-        description: site.siteMetadata.description,
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
@@ -75,7 +75,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: site.siteMetadata.title,
+            title: "Knights of S\'esh",
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;
