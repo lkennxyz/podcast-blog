@@ -86,7 +86,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        audio={post.frontmatter.audioPost}
+        audioPost={post.frontmatter.audioPost}
         file={post.frontmatter.file}
       />
     </Layout>
