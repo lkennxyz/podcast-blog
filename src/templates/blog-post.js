@@ -14,6 +14,7 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  audioPost,
   file,
 }) => {
   const PostContent = contentComponent || Content
@@ -28,9 +29,12 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            <audio controls>
-              <source src={`${file}`} type="audio/mp3"/>
-            </audio>
+            {({audioPost}) ? 
+              <audio controls>
+                <source src={`${file}`} type="audio/mp3"/>
+              </audio>
+              : ''
+            }
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -57,6 +61,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  audioPost: PropTypes.bool,
   file: PropTypes.string,
 }
 
@@ -81,6 +86,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        audio={post.frontmatter.audioPost}
         file={post.frontmatter.file}
       />
     </Layout>
@@ -105,6 +111,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        audioPost
         file
       }
     }

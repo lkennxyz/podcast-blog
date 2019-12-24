@@ -6,6 +6,7 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    const firstAudio = posts.findIndex(el => el.node.frontmatter.audioPost === true)
     return (
       <div className="columns is-multiline">
         {posts &&
@@ -31,7 +32,7 @@ class BlogRoll extends React.Component {
                 <p>
                   {post.frontmatter.description}
                   <br />
-                  {(i === 0) ?
+                  {(post.frontmatter.audioPost && i === firstAudio) ?
                     <audio controls>
                       <source src={`${post.frontmatter.file}`} type="audio/mp3"/>
                     </audio>
@@ -79,6 +80,7 @@ export default () => (
                 description
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
+                audioPost
                 file
               }
             }
