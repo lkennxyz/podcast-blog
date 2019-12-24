@@ -18,7 +18,7 @@ export const BlogPostTemplate = ({
   file,
 }) => {
   const PostContent = contentComponent || Content
-
+  console.log(audioPost)
   return (
     <section className="section">
       {helmet || ''}
@@ -29,7 +29,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            {({audioPost}) ? 
+            {(audioPost) ? 
               <audio controls>
                 <source src={`${file}`} type="audio/mp3"/>
               </audio>
