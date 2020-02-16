@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Keran Campaign 1:1 Welcome to the Eastward Festival'
+title: 'Keran Campaign 1:1 Welcome to the Eastwind Festival'
 date: 2020-02-16T18:26:04.534Z
 description: >-
   We say hello to our new characters as they explore this new world, just in
