@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Keran Campaign 1:2 - Look out for drunks when you are running through a city'
+title: 'Keran Campaign 1:2 - Lizards & Larceny'
 date: 2020-02-21T18:32:05.312Z
 description: >-
   As the gang fells their gastropod foes, a scream rings out. Who screamed? Why?
