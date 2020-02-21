@@ -50,7 +50,7 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   enclosure: { url: `${edge.node.frontmatter.file}`, type: 'audio/mpeg' },
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                  custom_elements: [{ "content:encoded": edge.node.frontmatter.description + '<br>' + edge.node.html }],
                 })
               })
             },
