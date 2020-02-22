@@ -37,7 +37,11 @@ module.exports = {
             ]},
             { 'itunes:explicit': 'No' },
             { 'itunes:categoryText': 'Comedy' },
-            { 'itunes:image': 'https://keran-podcast.s3.eu-west-2.amazonaws.com/logo.png' },
+            { 'itunes:image': {
+              _attr: {
+                href: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/logo.png' 
+              },
+            }},
 
           ],
         }),
