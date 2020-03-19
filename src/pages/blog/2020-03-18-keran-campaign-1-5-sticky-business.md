@@ -3,8 +3,8 @@ templateKey: blog-post
 title: 'Keran Campaign 1:5 Sticky Business'
 date: 2020-03-18T23:41:27.459Z
 description: >-
-  The gang begin their investigation of the missing children in the areas
-  surrounding Eastwind.
+  The gang continue their investigation into the missing children, and have fun
+  in the forest.
 audioPost: true
 file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-5.mp3'
 tags:
