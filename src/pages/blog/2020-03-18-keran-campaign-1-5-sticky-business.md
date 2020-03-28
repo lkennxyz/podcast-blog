@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Keran Campaign 1:5 Sticky Business'
+title: 'Keran Campaign 1:5 - Sticky Business'
 date: 2020-03-18T23:41:27.459Z
 description: >-
   The gang continue their investigation into the missing children, and have fun
