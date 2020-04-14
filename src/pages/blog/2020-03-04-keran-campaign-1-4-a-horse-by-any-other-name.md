@@ -6,7 +6,8 @@ description: >-
   The gang begin their investigation of the missing children in the areas
   surrounding Eastwind.
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-4.mp3'
+file: >-
+  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-4.mp3
 tags:
   - Keran
   - Season 1
