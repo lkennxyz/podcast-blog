@@ -6,7 +6,8 @@ description: >-
   After the special episode, the gang needs a rest, before bringing the child
   back to his home. Also the gang put Thorgrimm's intelligence to the test.
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-8.mp3'
+file: >-
+  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-8.mp3
 tags:
   - Keran
   - Season 1
