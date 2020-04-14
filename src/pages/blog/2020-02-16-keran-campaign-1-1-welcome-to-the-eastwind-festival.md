@@ -6,7 +6,8 @@ description: >-
   We say hello to our new characters as they explore this new world, just in
   time for the Eastwind Festival!
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-01.mp3'
+file: >-
+  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-1.mp3
 tags:
   - Keran
   - Season 1
