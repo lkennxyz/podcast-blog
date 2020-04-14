@@ -6,7 +6,8 @@ description: >-
   It's a supersized special! The gang continue their hunt for the Lizardmen, and
   get pro at sneaking.
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-7.mp3'
+file: >-
+  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-7.mp3
 tags:
   - Keran
   - Season 1
