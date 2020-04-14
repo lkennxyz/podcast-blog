@@ -6,7 +6,8 @@ description: >-
   As the gang fells their gastropod foes, a scream rings out. Who screamed? Why?
   These and other questions answered this week!
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-2.mp3'
+file: >-
+  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-2.mp3
 tags:
   - Keran
   - Season 1
