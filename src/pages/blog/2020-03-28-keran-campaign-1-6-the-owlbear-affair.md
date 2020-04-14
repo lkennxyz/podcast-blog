@@ -6,7 +6,8 @@ description: >-
   The gang continue to face off against a family of hungry Owlbears, and deeper
   in the forest Sylnelis meets and old friend.
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-6.mp3'
+file: >-
+  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-6.mp3
 tags:
   - Keran
   - Season 1
