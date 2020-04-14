@@ -6,7 +6,8 @@ description: >-
   The gang are cornered by Ol' Johnny Law, how will they get out of trouble this
   time?
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/Keran-3.mp3'
+file: >-
+  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-3.mp3
 tags:
   - Keran
   - Season 1
