@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Keran 1:9 - Out of the Frying Pan...'
+title: 'Keran Campaign 1:9 - Out of the Frying Pan...'
 date: 2020-04-18T17:21:22.595Z
 description: >-
   The gang return to Heldern with one of the missing children in tow, and enjoy
