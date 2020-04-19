@@ -2,10 +2,10 @@ const https = require('https');
 
 exports.handler = async (event, context, callback) => {
   const { body } = event;
-  console.log(body);
+  const json = JSON.parse(body);
   const response = await new Promise((resolve, reject) => {
     const chatID = process.env.TG_CHAT_ID
-    const msg = body.payload.title;
+    const msg = json.payload.title;
     const uri = process.env.TG_URI.replace('CHID', chatID).replace('MSG', msg);
     const req = https.get(uri, res => {
       res.on('end', () => {
