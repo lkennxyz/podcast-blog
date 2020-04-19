@@ -5,7 +5,7 @@ exports.handler = async (event, context, callback) => {
   console.log(body);
   const response = await new Promise((resolve, reject) => {
     const chatID = process.env.TG_CHAT_ID
-    const msg = JSON.stringify(body.title);
+    const msg = body.payload.title;
     const uri = process.env.TG_URI.replace('CHID', chatID).replace('MSG', msg);
     console.log(uri);
     const req = https.get(uri, res => {
