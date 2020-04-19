@@ -6,6 +6,7 @@ exports.handler = async (event, context, callback) => {
     const chatID = process.env.TG_CHAT_ID
     const msg = JSON.stringify(body);
     const uri = process.env.TG_URI.replace('MSG', msg).replace('CHID', chatID);
+    console.log(uri);
     const req = https.get(uri, res => {
       res.on('end', () => {
         resolve({ statusCode: 200 });
@@ -15,5 +16,6 @@ exports.handler = async (event, context, callback) => {
       reject({ statusCode: 500 });
     });
   });
+  console.log(response);
   return response;
 }
