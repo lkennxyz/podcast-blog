@@ -2,6 +2,7 @@ const https = require('https');
 
 exports.handler = async (event, context, callback) => {
   const { body } = event;
+  console.log(body);
   const response = await new Promise((resolve, reject) => {
     const chatID = process.env.TG_CHAT_ID
     const msg = JSON.stringify(body.title);
