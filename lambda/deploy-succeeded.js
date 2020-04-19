@@ -2,12 +2,11 @@ const https = require('https');
 
 exports.handler = async (event, context, callback) => {
   const { body } = event;
-  const json = await body.json();
+  console.log(body);
   const response = await new Promise((resolve, reject) => {
     const chatID = process.env.TG_CHAT_ID
-    const msg = json.payload.title;
+    const msg = body.payload.title;
     const uri = process.env.TG_URI.replace('CHID', chatID).replace('MSG', msg);
-    console.log(body);
     const req = https.get(uri, res => {
       res.on('end', () => {
         resolve({ statusCode: 200 });
