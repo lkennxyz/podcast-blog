@@ -6,7 +6,7 @@ description: >-
   We are rolling for our new characters and going over some rules before we
   start playing again next week.
 audioPost: true
-file: > -
+file: >-
   https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_0/Keran-0.mp3
 tags:
   - Keran
