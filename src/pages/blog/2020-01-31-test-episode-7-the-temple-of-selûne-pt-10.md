@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Test Episode 7: The Temple of Selûne pt 10'
+title: "Test Episode 7: The Temple of Selûne pt 10"
 date: 2020-01-31T19:21:38.680Z
 description: >-
   The gangs journey is coming to an end, but not without one last dirtbag
@@ -9,8 +9,7 @@ description: >-
 
   Epilogue next week!
 audioPost: true
-file: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/D%26D-20200126.mp3'
+file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Test_Season/D%26D-20200126.mp3
 tags:
   - test
 ---
-
