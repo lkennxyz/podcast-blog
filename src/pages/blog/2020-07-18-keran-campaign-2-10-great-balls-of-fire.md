@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Keran Campaign 2:10 - Great Balls of Fire
 date: 2020-07-18T18:15:54.628Z
 description: The gang do some final preparations in the city for their quest,
-  and start. their journey to the Arcane Library, but not without a couple of
+  and start their journey to the Arcane Library, but not without a couple of
   bumps in the road.
 audioPost: true
 file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-21.mp3
