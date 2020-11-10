@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Knights of S'esh
+title: Four Men & a Dwarf
 image: /img/home-jumbotron.jpg
-heading: Knights of Se'sh
+heading: Four Men & a Dwarf
 subheading: Six idiots playing D&D
 ---

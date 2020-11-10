@@ -7,12 +7,12 @@ description: >-
   dark wells up inside Iaris...
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-14.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-14.mp3
 tags:
   - Keran
   - Season 2
 ---
-[Combat Map](https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/images/forest+2.jpg)
+[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/images/forest+2.jpg)
 
 Background Music
 

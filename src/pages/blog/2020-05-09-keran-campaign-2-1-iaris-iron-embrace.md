@@ -8,7 +8,7 @@ description: >-
   the gang prepare for new journeys, and Iaris finally becomes a man.
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-12.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-12.mp3
 tags:
   - Keran
   - Season 2

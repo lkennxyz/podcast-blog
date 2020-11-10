@@ -8,12 +8,12 @@ description: >-
   far-reaching consequences...
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-11.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-11.mp3
 tags:
   - Keran
   - Season 1
 ---
-[Combat Map](https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/images/Night.jpg)
+[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/images/Night.jpg)
 
 Background Music:
 

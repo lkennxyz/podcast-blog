@@ -31,7 +31,7 @@ const Navbar = class extends React.Component {
                   padding: '0.25em',
                 }}
               >
-                The Knights of S'esh
+                Four Men & a Dwarf
               </h2>
             </Link>
           </div>

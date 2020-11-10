@@ -5,12 +5,12 @@ date: 2020-06-27T17:11:08.002Z
 description: The Gang finally arrive in New Faledrin and find somewhere to dry
   off. After, they enter the Dawnlight Keep and meet with the King's Council.
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-17.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-17.mp3
 tags:
   - Keran
   - Season 2
 ---
-[Map of New Falendrin](https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/images/New+Falendrin.jpg)
+[Map of New Falendrin](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/images/New+Falendrin.jpg)
 
 Background Music:
 

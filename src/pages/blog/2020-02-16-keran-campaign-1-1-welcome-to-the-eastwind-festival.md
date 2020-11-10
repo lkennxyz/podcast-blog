@@ -7,7 +7,7 @@ description: >-
   time for the Eastwind Festival!
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-1.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-1.mp3
 tags:
   - Keran
   - Season 1

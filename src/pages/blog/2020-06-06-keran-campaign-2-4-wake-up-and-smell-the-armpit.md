@@ -7,7 +7,7 @@ description: >-
   Sylnellis' encounter. Bhala's sense of direction is put to the test.
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-15.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-15.mp3
 tags:
   - Keran
   - Season 2

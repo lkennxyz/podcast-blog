@@ -5,12 +5,12 @@ date: 2020-02-21T18:32:05.312Z
 description: As the gang fells their gastropod foes, a scream rings out. Who
   screamed? Why? These and other questions answered this week!
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-2.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-2.mp3
 tags:
   - Keran
   - Season 1
 ---
-[Combat Map](https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/images/Eastwind+close.jpg)
+[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/images/Eastwind+close.jpg)
 
 Background audio:
 

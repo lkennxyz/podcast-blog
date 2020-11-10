@@ -7,7 +7,7 @@ description: >-
   start playing again next week.
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_0/Keran-0.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_0/Keran-0.mp3
 tags:
   - Keran
   - Season 0

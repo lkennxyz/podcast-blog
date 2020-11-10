@@ -7,7 +7,7 @@ description: >-
   a well earned celebration.
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-9.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-9.mp3
 tags:
   - Keran
   - Season 1

@@ -9,7 +9,7 @@ description: >-
 
   Epilogue next week!
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Test_Season/D%26D-20200126.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Test_Season/D%26D-20200126.mp3
 tags:
   - test
 ---

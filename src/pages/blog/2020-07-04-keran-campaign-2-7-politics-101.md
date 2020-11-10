@@ -6,7 +6,7 @@ description: The gang attend the presentation of their findings to the King's
   Council, but something is not right. After, the gang look into an old friend
   of Hawke's
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-18.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-18.mp3
 tags:
   - Keran
   - Season 2

@@ -6,7 +6,7 @@ description: The gang (or most of it at least) go to dinner at the house of the
   Lord of Eastwind Tychus Baledred. After, they finally start their journey to
   New Falendrin
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-16.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-16.mp3
 tags:
   - Keran
   - Season 2

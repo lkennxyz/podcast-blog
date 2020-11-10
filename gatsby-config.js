@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'The Knights of S\'esh',
+    title: 'Four Men & a Dwarf',
     description: 'Six idiots playing D&D',
-    siteUrl: 'https://knightsofsesh.kenn.dev',
+    siteUrl: 'https://fourmenandadwarf.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -88,7 +88,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Knights of S\'esh",
+            title: "Four Men & a Dwarf",
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;

@@ -6,7 +6,7 @@ description: The gang deals with the group that Sylnellis noticed lingering on
   the dock, to try and save Haywood after his indiscretion. After the gang spend
   some time exploring the city, and Thorgrim makes an offering to the Gods.
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-19.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-19.mp3
 tags:
   - Keran
   - Season 2

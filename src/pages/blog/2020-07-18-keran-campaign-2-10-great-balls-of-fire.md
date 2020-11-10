@@ -6,12 +6,12 @@ description: The gang do some final preparations in the city for their quest,
   and start their journey to the Arcane Library, but not without a couple of
   bumps in the road.
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-21.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-21.mp3
 tags:
   - Keran
   - Season 2
 ---
-[Combat Map](https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/images/Hills.jpg)
+[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/images/Hills.jpg)
 
 Background Music:
 * Oblivion - Music & Ambience - Towns

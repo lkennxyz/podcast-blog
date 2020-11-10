@@ -9,7 +9,7 @@ description: |-
 
   No new episode this week because people are travelling.
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Test_Season/D%26D-20200113.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Test_Season/D%26D-20200113.mp3
 tags:
   - test
 ---

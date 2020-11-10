@@ -7,7 +7,7 @@ description: >-
 
   The gang continue their journey through the temple, and things get wet and wild.
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Test_Season/D%26D-20191210.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Test_Season/D%26D-20191210.mp3
 tags:
   - test
 ---

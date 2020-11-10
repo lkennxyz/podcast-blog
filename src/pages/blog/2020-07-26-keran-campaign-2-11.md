@@ -5,7 +5,7 @@ date: 2020-07-26T15:46:17.967Z
 description: The gang continue their journey toward the Great Arcane Library,
   but are held up on their way (briefly) by a Goblin Village.
 audioPost: true
-file: https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-22.mp3
+file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/Keran-22.mp3
 tags:
   - Keran
   - Season 2

@@ -5,12 +5,12 @@ date: 2020-04-23T21:29:29.354Z
 description: 'Raiders are coming for Heldern, how will the gang handle this new threat?'
 audioPost: true
 file: >-
-  https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-10.mp3
+  https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/Keran-10.mp3
 tags:
   - Keran
   - Season 1
 ---
-[Combat Map](https://files.knightsofsesh.com/file/Knights-Of-Sesh-episodes/Season_1/images/Night.jpg)
+[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_1/images/Night.jpg)
 
 Background Music:
 
