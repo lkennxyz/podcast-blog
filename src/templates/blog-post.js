@@ -18,7 +18,6 @@ export const BlogPostTemplate = ({
   file,
 }) => {
   const PostContent = contentComponent || Content
-  console.log(audioPost)
   return (
     <section className="section">
       {helmet || ''}

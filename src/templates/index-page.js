@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faRssSquare } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
@@ -45,19 +47,24 @@ export const IndexPageTemplate = ({
         >
           {title}
         </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
+        <div
+          className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen subheading"
+            style={{
+              boxShadow:
               'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
+              backgroundColor: 'rgb(255, 68, 0)',
+              color: 'white',
+              lineHeight: '1',
+              padding: '0.25em',
+            }}
         >
-          {subheading}
-        </h3>
+          <h3 className="has-text-weight-bold">
+            {subheading}
+          </h3>
+          <a href='/rss.xml' className='rssIcon'>
+            <FontAwesomeIcon icon={faRssSquare}/>
+          </a>
+        </div>
       </div>
     </div>
     <section className="section section--gradient">

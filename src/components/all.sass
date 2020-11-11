@@ -10,6 +10,15 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+.subheading
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  .rssIcon
+    text-decoration: none
+    border: 0 none
+    color: white
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -139,5 +148,9 @@ $menu-label-color: $white-ter
     max-width: 70%;
     margin: 0 0 1em;
 
+.notification
+  padding: 1.25rem 1.25rem 1.25rem 1.5rem
+
 audio
+  width: 100%;
   max-width: 100%;

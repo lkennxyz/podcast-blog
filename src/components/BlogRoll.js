@@ -11,6 +11,7 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }, i) => (
+            !post.frontmatter.tags.includes('test') &&
             <div className="is-parent column is-12" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification`}
@@ -82,6 +83,7 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 audioPost
                 file
+                tags
               }
             }
           }

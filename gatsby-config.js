@@ -48,7 +48,9 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges
+                .filter(edge => !edge.node.frontmatter.tags.includes('test'))
+                .map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.frontmatter.description,
                   date: edge.node.frontmatter.date,
@@ -59,7 +61,7 @@ module.exports = {
                     { "content:encoded": edge.node.frontmatter.description + '<br>' + edge.node.html },
                     { 'itunes:image': {
                       _attr: {
-                        href: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/logo.png' 
+                        href: 'https://files.fourmenandadwarf.com/file/kots-images/Logo.svg' 
                       },
                     }},
                   ],
@@ -67,20 +69,26 @@ module.exports = {
               })
             },
             query: `
-              {
+              query BlogRollQuery {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { order: DESC, fields: [frontmatter___date] }
+                  filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
                 ) {
                   edges {
                     node {
-                      excerpt
+                      id
                       html
-                      fields { slug }
+                      fields {
+                        slug
+                      }
                       frontmatter {
                         title
                         description
-                        date
+                        templateKey
+                        date(formatString: "MMMM DD, YYYY")
+                        audioPost
                         file
+                        tags
                       }
                     }
                   }
