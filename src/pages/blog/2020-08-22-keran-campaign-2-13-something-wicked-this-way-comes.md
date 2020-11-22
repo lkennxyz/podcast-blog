@@ -10,7 +10,7 @@ tags:
   - Keran
   - Season 2
 ---
-[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/images/demonology.jpg)
+[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/images/demonology.jpeg)
 
 * 1 Hour of H.P. Lovecraft Music - Orchestral Ambient Creepy Horror Music for Role-Playing and Gaming
 * Combat Music Megamix - The Witcher 3 - Wild Hunt
