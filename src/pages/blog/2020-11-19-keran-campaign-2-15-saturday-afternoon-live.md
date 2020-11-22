@@ -10,4 +10,6 @@ tags:
   - Keran
   - Season 2
 ---
+[Combat Map](https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_2/images/TheWizardsChessboardEncounter.jpg)
+
 Our first live and in person session! of stuff happens as Four Men and a Dwarf continue their journey through the Arcane Library
