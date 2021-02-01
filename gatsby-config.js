@@ -35,11 +35,11 @@ module.exports = {
               { 'itunes:name': site.siteMetadata.title },
               { 'itunes:email': 'liam@lkenn.xyz' },
             ]},
-            { 'itunes:explicit': 'No' },
+            { 'itunes:explicit': 'Yes' },
             { 'itunes:categoryText': 'Comedy' },
             { 'itunes:image': {
               _attr: {
-                href: 'https://keran-podcast.s3.eu-west-2.amazonaws.com/logo.png' 
+                href: 'https://files.fourmenandadwarf.com/file/kots-images/Logo.svg' 
               },
             }},
 
