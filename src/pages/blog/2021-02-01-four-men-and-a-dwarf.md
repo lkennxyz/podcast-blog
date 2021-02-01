@@ -3,9 +3,9 @@ templateKey: blog-post
 title: Four Men and a Dwarf
 date: 2021-02-01T20:21:30.609Z
 description: >+
-  DM Fraser commissioned art of the group from the wonderful
-  [@pokepaws](https://twitter.com/pokepaws) as a Christmas gift to the group, so
-  here are our intrepid adventurers!
+  DM Fraser commissioned art of the group from the wonderful <a
+  href="https://twitter.com/pokepaws">@pokepaws</a> as a Christmas gift to the
+  group, so here are our intrepid adventurers!
 
 audioPost: false
 tags:
