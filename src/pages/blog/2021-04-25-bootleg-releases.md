@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Bootleg Releases
 date: 2021-04-25T18:42:15.259Z
 description: Things are changing around here.
-audioPost: true
+audioPost: false
 tags:
   - Update
 ---
