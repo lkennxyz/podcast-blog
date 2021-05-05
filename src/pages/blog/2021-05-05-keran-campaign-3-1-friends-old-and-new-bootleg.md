@@ -9,4 +9,5 @@ file: https://files.fourmenandadwarf.com/file/Knights-Of-Sesh-episodes/Season_3/
 tags:
   - Keran
   - Season 3
+  - Bootleg
 ---
