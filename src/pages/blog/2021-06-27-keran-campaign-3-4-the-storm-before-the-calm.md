@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Keran Campaign 3:4 - The Storm Before the Calm
+title: Keran Campaign 3:4 - The Storm Before the Calm [BOOTLEG]
 date: 2021-06-27T21:23:23.809Z
 description: The gang continue their fight against the aberration of the Shadow
   Wastes. Later, Iaris makes his troubling views known
