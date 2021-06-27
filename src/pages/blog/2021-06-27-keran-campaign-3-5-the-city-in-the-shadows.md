@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Keran Campaign 3:5 - The City in the Shadows
+title: Keran Campaign 3:5 - The City in the Shadows [BOOTLEG]
 date: 2021-06-27T21:26:07.354Z
 description: After their troubles on the road, the gang finally make it to
   Zedaris, and spend some time getting their bearings for their latest quest
