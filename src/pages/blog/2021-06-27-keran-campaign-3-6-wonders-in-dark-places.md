@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Keran Campaign 3:6 - Wonders in Dark Places
+title: Keran Campaign 3:6 - Wonders in Dark Places [BOOTLEG]
 date: 2021-06-27T21:28:15.941Z
 description: The gang make the acquaintance of the Zedaris' resident Archmage,
   and enjoy a rare night of peace together with her
